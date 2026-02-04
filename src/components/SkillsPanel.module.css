@@ -1,0 +1,8 @@
+.skillsPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
