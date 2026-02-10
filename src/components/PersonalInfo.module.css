@@ -1,0 +1,52 @@
+.personalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 8vh;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.profilePic {
+    width: 220px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid #2e2e2e;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+
+    transition: transform 0.3s ease;
+}
+
+.profilePic:hover {
+    transform: scale(1.03);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+    color: #eaeaea;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.role {
+    font-size: 1.2rem;
+    opacity: 0.85;
+    margin-bottom: 4px;
+}
+
+.location {
+    font-size: 1rem;
+    opacity: 0.7;
+}
