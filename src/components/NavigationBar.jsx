@@ -12,7 +12,7 @@ export default function NavigationBar() {
             <div className={styles.links}>
                 <a
                     className={styles.link}
-                    href="mailto:your@email.com"
+                    href="mailto:aleix.batchelli@students.salle.url.edu"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -21,7 +21,7 @@ export default function NavigationBar() {
 
                 <a
                     className={styles.link}
-                    href="https://www.linkedin.com/in/yourusername/"
+                    href="www.linkedin.com/in/aleixbatchelli"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -30,7 +30,7 @@ export default function NavigationBar() {
 
                 <a
                     className={styles.link}
-                    href="https://github.com/yourusername"
+                    href="https://github.com/aleix-batchelli"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

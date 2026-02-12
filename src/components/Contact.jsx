@@ -8,7 +8,7 @@ export default function Contact() {
 
             <div className={styles.links}>
                 <a
-                    href="mailto:your@email.com"
+                    href="mailto:aleix.batchelli@students.salle.url.edu"
                     className={styles.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -18,7 +18,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/aleix-batchelli"
                     className={styles.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/yourusername/"
+                    href="https://www.linkedin.com/in/aleixbatchelli"
                     className={styles.link}
                     target="_blank"
                     rel="noopener noreferrer"

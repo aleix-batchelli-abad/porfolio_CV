@@ -1,0 +1,30 @@
+contact:
+  name: Aleix Batchellí I Abad
+  phone: "+34 651 63 03 57"
+  email: aleix.batchelli@students.salle.url.edu
+  linkedin: www.linkedin.com/in/aleixbatchelli
+
+nav:
+  - label: About Me
+    path: /about-me
+    component: AboutMe
+
+  - label: Projects
+    path: /projects
+    component: Projects
+
+  - label: Skills
+    path: /skills
+    component: Skills
+
+  - label: Experience
+    path: /experience
+    component: Experience
+
+  - label: Education
+    path: /education
+    component: Education
+
+  - label: Contact
+    path: /contact
+    component: Contact

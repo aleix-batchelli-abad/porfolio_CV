@@ -7,6 +7,7 @@ import PersonalInfo from "@components/PersonalInfo.jsx";
 import AboutMe from "@components/AboutMe.jsx";
 import Skills from "@components/Skills.jsx";
 import Contact from "@components/Contact.jsx";
+import Projects from "@components/Projects.jsx";
 const cv = yaml.load(rawCV);
 
 
@@ -17,9 +18,7 @@ export default function App() {
             <PersonalInfo />
             <AboutMe />
             <Skills />
-            {/*}
             <Projects />
-            */}
             <Contact />
         </div>
     );
