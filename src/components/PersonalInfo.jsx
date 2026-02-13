@@ -1,5 +1,5 @@
 import styles from "@components/PersonalInfo.module.css";
-import { images } from "@assets/img";
+import { images } from "@assets/img/index";
 import {useTranslation} from "react-i18next";
 
 export default function PersonalInfo() {
