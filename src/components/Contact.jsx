@@ -1,10 +1,15 @@
 import styles from "@components/Contact.module.css";
 import { Icon } from "@iconify/react";
 
+import {useTranslation} from "react-i18next";
+
 export default function Contact() {
+
+    const {t} = useTranslation();
+
     return (
         <div className={styles.contact}>
-            <h2 className={styles.title}>Get in Touch</h2>
+            <h2 className={styles.title}>{t('get-in-touch')}</h2>
 
             <div className={styles.links}>
                 <a

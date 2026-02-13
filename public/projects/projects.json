@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Personal Portfolio",
+    "description": {
+      "en": "My personal portfolio website built with React. Features full internationalization (i18n), dynamic project loading, and a custom responsive design.",
+      "es": "Mi página web de portafolio personal construida con React. Incluye internacionalización completa (i18n), carga dinámica de proyectos y un diseño responsivo personalizado.",
+      "ca": "La meva pàgina web de portafoli personal construïda amb React. Inclou internacionalització completa (i18n), càrrega dinàmica de projectes i un disseny responsiu personalitzat."
+    },
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/aleix-batchelli-abad/porfolio_CV" }
+    ]
+  },
+  {
+    "name": "RaveView iOS",
+    "description": {
+      "en": "An iOS application designed to help users discover and explore techno events and clubs. Built natively with Swift.",
+      "es": "Una aplicación iOS diseñada para ayudar a los usuarios a descubrir y explorar eventos de techno y clubs. Desarrollada nativamente con Swift.",
+      "ca": "Una aplicació iOS dissenyada per ajudar els usuaris a descobrir i explorar esdeveniments de techno i clubs. Desenvolupada nativament amb Swift."
+    },
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/aleix-batchelli/RaveViewIOS" }
+    ]
+  },
+  {
+    "name": "Distributed Systems Project",
+    "description": {
+      "en": "A distributed client-server system handling concurrent connections with fault tolerance.",
+      "es": "Sistema distribuido cliente-servidor que maneja conexiones concurrentes con tolerancia a fallos.",
+      "ca": "Sistema distribuït client-servidor que gestiona connexions concurrents amb tolerància a fallades."
+    },
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/Aniol24/Distributed-Systems-Project" }
+    ]
+  },
+  {
+    "name": "SoundPlayer",
+    "description": {
+      "en": "A Java-based audio player application supporting playlist management and playback controls.",
+      "es": "Un reproductor de audio en Java que gestiona listas de reproducción y controles de playback.",
+      "ca": "Un reproductor d'àudio en Java que gestiona llistes de reproducció i controls de playback."
+    },
+    "links": [
+      { "name": "GitHub", "url": "https://github.com/aleix-batchelli/SoundPlayer" }
+    ]
+  }
+]

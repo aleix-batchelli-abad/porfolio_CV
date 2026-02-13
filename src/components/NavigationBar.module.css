@@ -1,19 +1,15 @@
 .navigationBar {
     width: 100%;
-    padding: 12px 28px; /* smaller height */
-
+    padding: 12px 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     position: sticky;
     top: 0;
     z-index: 100;
-
     background: rgba(15, 15, 15, 0.85);
     backdrop-filter: blur(10px);
-
-    box-sizing: border-box; /* prevents overflow */
+    box-sizing: border-box;
 }
 
 .flexCenter {
@@ -38,7 +34,45 @@
 .links {
     display: flex;
     align-items: center;
-    gap: 16px; /* tighter spacing */
+    gap: 16px;
+}
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    gap: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.selectContainer:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.langIcon {
+    font-size: 1.1rem;
+    color: #eaeaea;
+}
+
+.langSelect {
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #eaeaea;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-right: 4px;
+}
+
+.langSelect option {
+    background-color: #1a1a1a;
+    color: #eaeaea;
 }
 
 .link {
@@ -53,7 +87,7 @@
 }
 
 .icon {
-    width: 22px; /* smaller icons */
+    width: 22px;
     height: 22px;
     transition: transform 0.2s ease;
 }
@@ -65,13 +99,11 @@
 .cvButton {
     padding: 6px 14px;
     border-radius: 6px;
-
     background: #ffffff;
     color: #000000;
     font-weight: 600;
     text-decoration: none;
     font-size: 0.9rem;
-
     transition: background 0.2s ease, transform 0.2s ease;
 }
 
@@ -80,7 +112,6 @@
     transform: translateY(-2px);
 }
 
-/* Mobile fix */
 @media (max-width: 600px) {
     .navigationBar {
         flex-direction: column;
@@ -90,5 +121,11 @@
 
     .links {
         gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .selectContainer {
+        margin-right: 0;
     }
 }
