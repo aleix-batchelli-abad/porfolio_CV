@@ -1,0 +1,84 @@
+cv:
+  name: Aleix Batchellí
+  location: Barcelona, Spain
+  email: aleix.batchelli@students.salle.url.edu
+  phone: "+34 651 530 357"
+  linkedin: https://www.linkedin.com/in/aleixbatchelli
+
+  sections:
+
+    languages:
+      - language: Catalan
+        level: Native
+      - language: Spanish
+        level: Native
+      - language: English
+        level: C1
+
+    professional_summary:
+      - |
+        Computer Science student at La Salle University with a strong technical background in software development (Java, Python) and network architecture. My experience in robotics and low-level systems integration has given me a practical perspective on how software drives physical operations—a mindset well-suited for the logistics and industrial sector.
+        
+        Combining analytical discipline with a team-oriented work ethic developed through competitive sports, I am eager to join Frit Ravich. I aim to apply my skills in algorithms and data management to contribute to the efficiency of your IT operations and distribution systems.
+
+    education:
+      - institution: La Salle URL
+        location: Barcelona, Spain
+        area: BSc in Computer Science
+        date: Expected Graduation 2026
+        highlights:
+          - "**Key Coursework:** Data Structures, Algorithmics, Web Development, Network Architecture (CCNA)."
+
+    technical_skills:
+      - label: Programming
+        details: Java (OOP), Python, C, SQL, PHP, JavaScript
+      - label: Tools & Methodologies
+        details: Git, Docker, Codeigniter, Agile/Scrum
+      - label: Networking
+        details: CCNA1 Certification (Cisco Networking Academy, 2023)
+
+    key_projects:
+      - name: Distributed Chat System (C & Microcontrollers)
+        highlights:
+          - Designed a cooperative chat system using custom protocols (UDP/TCP) on microcontrollers.
+          - Solved challenges related to memory management and real-time data transmission in constrained environments.
+
+      - name: Algorithmic Optimization Suite (Java)
+        highlights:
+          - Implemented and benchmarked complex data structures (R-Trees, Binary Trees, Hash Tables).
+          - Focused on optimizing algorithmic complexity to solve retrieval problems efficiently.
+
+      - name: Simulation Game Engine (Java Swing)
+        highlights:
+          - Led the UI development for a resource-management simulation (Cookie Clicker clone).
+          - Applied MVC (Model-View-Controller) architecture to ensure code scalability and smooth user experience.
+
+      - name: Automated Chat Bot (Python)
+        highlights:
+          - Developed a bot using text processing and token-based algorithms to parse user inputs and automate responses, demonstrating proficiency in natural language logic.
+
+    leadership_and_background:
+      - company: ISSOS Leadership Program
+        position: Program Participant
+        location: St. Andrews, Scotland
+        date: 2017 – 2019
+        highlights:
+          - Completed intensive courses in Youth Leadership, Debate, and Film Making.
+          - Developed strong public speaking, conflict resolution, and cross-cultural communication skills essential for international consulting environments.
+
+      - company: First Lego League Robotics
+        position: Team Member
+        date: 2016 – 2018
+        highlights:
+          - Competed in robotics challenges, focusing on logic programming and electromechanical design.
+          - Cultivated a problem-solving mindset under time pressure.
+
+    additional_achievements:
+      - "**Judo Black Belt:** Demonstrating long-term discipline, resilience, and respect for hierarchy."
+      - "**Driving License:** Class B."
+
+    availability:
+      - "Available for part-time internships starting January 2026."
+
+design:
+  theme: classic
